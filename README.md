@@ -1,15 +1,16 @@
 # LendingClub
 
-Table of Contents
-Motivation
-Overview
-Dataset
-Conversion
-Transformation
-Database
-Visualization
-Vision
-Notes
+## Table of Contents
+
+1. [Motivation](#motivation)
+2. [Overview](#overview)
+3. [Dataset](#dataset)
+4. [Conversion](#conversion)
+5. [Transformation](#transformation)
+6. [Database](#database)
+7. [Visualization](#visualization)
+8. [Vision](#vision)
+9. [Notes](#notes-on-setting-the-environment)
 
 # Overview
 This project aims at creating a data pipeline for integrating the multiple datasets about single-family mortgage loans and training a robust machine learning model to predict the mortgage default.
