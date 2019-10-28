@@ -4,8 +4,8 @@
 
 1. [Overview](#overview)
 2. [Dataset](#dataset)
-3. [DataExploration](#dataexploration)
-4. [DataProcessing](#dataprocessing)
+3. [Data Exploration](#dataexploration)
+4. [Data Processing](#dataprocessing)
 5. [Database](#database)
 6. [Visualization](#visualization)
 7. [FutureWork](#FutureWork)
