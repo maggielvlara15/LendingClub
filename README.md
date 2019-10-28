@@ -2,15 +2,13 @@
 
 ## Table of Contents
 
-1. [Motivation](#motivation)
-2. [Overview](#overview)
-3. [Dataset](#dataset)
-4. [Conversion](#conversion)
-5. [Transformation](#transformation)
-6. [Database](#database)
-7. [Visualization](#visualization)
-8. [Vision](#vision)
-9. [Notes](#notes-on-setting-the-environment)
+1. [Overview](#overview)
+2. [Dataset](#dataset)
+3. [Data Exploration](#data Exploration)
+4. [DataProcessing](#DataProcessing)
+5. [Database](#database)
+6. [Visualization](#visualization)
+7. [FutureWork](#FutureWork)
 
 # Overview
 This project aims at creating a data pipeline for integrating the multiple datasets about single-family mortgage loans and training a robust machine learning model to predict the mortgage default.
