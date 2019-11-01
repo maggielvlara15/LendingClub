@@ -29,7 +29,7 @@ backtesting
     |- db
         |- schema.sql
     |- src
-        |- create_table.py
+        |- write_clean_df.py
         |- data_cleaning.py
         |- config.ini
 ```
