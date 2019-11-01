@@ -6,7 +6,7 @@
 2. [Dataset](#dataset)
 3. [DataExploration](#dataexploration)
 4. [DataProcessing](#dataprocessing)
-5. [Storage&Database](#storage&database)
+5. [Database](#database)
 6. [Visualization](#visualization)
 7. [FutureWork](#FutureWork)
 
@@ -41,7 +41,7 @@ backtesting
 There are two files,one is the loan data file which is csv format, another one is associated dictionary from which is a xlsx format.
 The csv file have 145 columns and 2260668 rows.
 
-# Data Exploration
+# DataExploration
 In this section, I analyzed the lending club dataset from 2007 to 2015. I explored the data and found some valuable information from business perspetive and risk perspective.
 ## Outlier
 ### Distributions and Basic Information
@@ -85,7 +85,7 @@ This section includes data cleaning and data validation:
 8. Flag outliers
 9. Flag invalid categories
 
-# Storage and Database
+# Storage
 I stored the result in AWS S3 for now, in the future work, I would like the choose PostgreSQL as the database because it is a extensible and convenient RDAMS and it also provides legendary reliability and stability.
 
 # Visualization
