@@ -96,8 +96,18 @@ I choose PostgreSQL as the database because it is a extensible and convenient RD
 # Visualization
 All the data visualization are saved at data_analysis,ipynb. Here are a few example:
 
+This figure shows the percentage of employment length along the loan purpose
 ![visualization1](Visualization/visualization1.jpg)
 
+The following figures show the distribution of loan condition and loan purpose along the year
 ![visualization2](Visualization/visualization2.jpg)
+
+# FutureWork
+1. There are definitely more analysis we can do
+2. Add more data validations during the data processing
+3. Add unit tests during the data processing
+3. Add a airflow to automate the whole process
+4. Add monitors along the whole pipeline
+
 
 
