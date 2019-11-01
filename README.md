@@ -32,5 +32,16 @@ backtesting
         |- create_table.py
         |- data_cleaning.py
         |- config.ini
-'''
+```
+
+# Dataset
+
+|Number of files|Size of csv file|
+|---|---|
+|1 csv|1.1GB|
+|1 xlsx|23KB|
+
+There are two files,one is the loan data file which is csv format, another one is associated dictionary from which is a xlsx format.
+The csv file have columns and rows.
+
 
