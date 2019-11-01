@@ -21,13 +21,9 @@ LendingClub is the world's largest peer-to-peer lending platform, where investor
 The structure of the directory is mapped according to this tree:
 ```
 backtesting
-    |- cli
-        |- useful.sh
     |- data_pipeline.png
     |- README.md
     |- loan_analysis.ipynb
-    |- db
-        |- schema.sql
     |- src
         |- run.sh
         |- write_clean_df.py
