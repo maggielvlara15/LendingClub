@@ -4,8 +4,8 @@
 
 1. [Overview](#overview)
 2. [Dataset](#dataset)
-3. [Data_Exploration](#data_exploration)
-4. [Data_Processing](#data_processing)
+3. [DataExploration](#dataexploration)
+4. [DataProcessing](#dataprocessing)
 5. [Storage&Database](#storage&database)
 6. [Visualization](#visualization)
 7. [FutureWork](#FutureWork)
@@ -73,7 +73,7 @@ Summary:
  
 data_analysis.ipynb is the reference for details
 
-# Data Processing
+# DataProcessing
 This section includes data cleaning and data validation:
 1. Remove columns with only one value
 2. Remove columns with more than 90% missing data 
