@@ -42,7 +42,7 @@ backtesting
 |1 xlsx|23 KB|
 
 There are two files,one is the loan data file which is csv format, another one is associated dictionary from which is a xlsx format.
-The csv file have columns and rows.
+The csv file have 145 columns and 2260668 rows.
 
 # Data Exploration
 In this section, I analyzed the lending club dataset from 2007 to 2015. I explored the data and found some valuable information from business perspetive and risk perspective.
@@ -73,5 +73,29 @@ Summary:
  1. Low income group tends to have higher bad_loan/good_loan ratio
  2. People having small business loan purpose tend to have a higher risk of being a bad loan
  3. The interest rate for house is hign, and the bad_loan/good_loan ratio is not high, so it seems a good business to provide loan for house
+ 
+data_analysis.ipynb is the reference for details
+
+# Data Processing
+This section includes data cleaning and data validation:
+1. Remove columns with only one value
+2. Remove columns with more than 90% missing data 
+3. Remove columns with redundant information
+4. Remove duplicates
+5. Convert date columns from string to datetime type
+6. Conver emplotment length from  string to integer type
+7. Flag negative numbers
+8. Flag outliers
+9. Flag invalid categories
+10. Read processed data in Postgres
+
+
+# Database
+I choose PostgreSQL as the database because it is a extensible and convenient RDAMS and it provides legendary reliability and stability.
+
+# Visualization
+All the data visualization are saved at data_analysis,ipynb. Here are a few example:
+
+
 
 
