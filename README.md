@@ -18,15 +18,15 @@ LendingClub is the world's largest peer-to-peer lending platform, where investor
 2.The second part is to build a pipleline to ingest and process the data in a efficient way. Following along the pipeline, I first ingest the dataset with a total size of 254.6G from the data source provided to AWS S3; clean and validate the dataset in Python3, and then save the dataset in Postgres.
 
 The structure of the directory is mapped according to this tree:
-
-|- data_pipeline.png
-|- README.md
-|- loan_analysis.ipynb
-|- db
-    |- schema.sql
-|- src
-    |- create_table.py
-    |- data_cleaning.py
-    |- config.ini
-
+'''
+    |- data_pipeline.png
+    |- README.md
+    |- loan_analysis.ipynb
+    |- db
+        |- schema.sql
+    |- src
+        |- create_table.py
+        |- data_cleaning.py
+        |- config.ini
+'''
 
