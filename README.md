@@ -11,20 +11,19 @@
 7. [FutureWork](#FutureWork)
 
 # Overview
-This project aims at creating a data pipeline for integrating the multiple datasets about single-family mortgage loans and training a robust machine learning model to predict the mortgage default.
+LendingClub is the world's largest peer-to-peer lending platform, where investors provide funds for potential borrowers and investors earn a profit. This project consists of two parts:
 
-Following along the pipeline, I first ingest the dataset with a total size of 254.6G from the Fannie Mae and Freddie mac to AWS S3; clean, tranforming and combing the data in Spark, and then save the clean dataset in Postgres; traning the ML models in Spark and deploy the model at Flask.
+1.The first part is to analyze the lending club dataset from 2007 to 2015. I am trying to explore the data and find valuable information from business perspetive and risk perspective. 
+
+2.The second part is to build a pipleline to ingest and process the data in a efficient way. Following along the pipeline, I first ingest the dataset with a total size of 254.6G from the data source provided to AWS S3; clean and validate the dataset in Python3, and then save the dataset in Postgres.
 
 The structure of the directory is mapped according to this tree:
 
 |- data_pipeline.png
 |- README.md
+|- data
 |- db
     |- schema.sql
-|- flask
-    |- run.py
-    |- views.py
-    |- requirements.txt
 |- src
     |- create_table.py
     |- ml_postgres.py
