@@ -21,14 +21,12 @@ The structure of the directory is mapped according to this tree:
 
 |- data_pipeline.png
 |- README.md
-|- data
+|- loan_analysis.ipynb
 |- db
     |- schema.sql
 |- src
     |- create_table.py
-    |- ml_postgres.py
-    |- freddie_prepare.py
-    |- fannie_prepare.py
-   
-#Data Exploration
+    |- data_cleaning.py
+    |- config.ini
+
 
