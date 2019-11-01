@@ -84,8 +84,6 @@ This section includes data cleaning and data validation:
 7. Flag negative numbers
 8. Flag outliers
 9. Flag invalid categories
-10. Read processed data in Postgres
-
 
 # Database
 I choose PostgreSQL as the database because it is a extensible and convenient RDAMS and it provides legendary reliability and stability.
