@@ -96,6 +96,8 @@ I choose PostgreSQL as the database because it is a extensible and convenient RD
 # Visualization
 All the data visualization are saved at data_analysis,ipynb. Here are a few example:
 
+![visualization1](Visualization/visualization1.png)
 
+![visualization2](Visualization/visualization2.png)
 
 
