@@ -6,7 +6,7 @@
 2. [Dataset](#dataset)
 3. [Data Exploration](#dataexploration)
 4. [Data Processing](#dataprocessing)
-5. [Database](#database)
+5. [Storage and Database](#storageanddatabase)
 6. [Visualization](#visualization)
 7. [FutureWork](#FutureWork)
 
@@ -85,8 +85,8 @@ This section includes data cleaning and data validation:
 8. Flag outliers
 9. Flag invalid categories
 
-# Database
-I choose PostgreSQL as the database because it is a extensible and convenient RDAMS and it provides legendary reliability and stability.
+# Storage and Database
+I stored the result in AWS S3 for now, in the future work, I would like the choose PostgreSQL as the database because it is a extensible and convenient RDAMS and it also provides legendary reliability and stability.
 
 # Visualization
 All the data visualization are saved at data_analysis,ipynb. Here are a few example:
