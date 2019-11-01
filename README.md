@@ -65,16 +65,16 @@ Summary:
  
 #### Analysis by Income and Employment Length Categories
 Summary:
- 3. Hign income people's top loan purpose is small business;
+3. Hign income people's top loan purpose is small business;
     Medium income people's top loan purpose is home improvement;
     Low income people's top loan purpose is education.
- 4. Junior level people have a high weight loan on education, it might because junior people were still paying for the student loan.
+4. Junior level people have a high weight loan on education, it might because junior people were still paying for the student loan.
     Senior level people have a high weight loan on vacation and renewable_energy except people with 10+ employment length has the highest weight loan on home improvent.
     
 ### Risk Perspective
-  Summary
-  1. Low income group tends to have higher bad_loan/good_loan ratio
-  2. People having small business loan purpose tend to have a higher risk of being a bad loan
-  3. The interest rate for house is hign, and the bad_loan/good_loan ratio is not high, so it seems a good business to provide loan for house
+ Summary
+ 1. Low income group tends to have higher bad_loan/good_loan ratio
+ 2. People having small business loan purpose tend to have a higher risk of being a bad loan
+ 3. The interest rate for house is hign, and the bad_loan/good_loan ratio is not high, so it seems a good business to provide loan for house
 
 
