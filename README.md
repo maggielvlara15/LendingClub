@@ -15,7 +15,7 @@ LendingClub is the world's largest peer-to-peer lending platform, where investor
 
 1.The first part is to analyze the lending club dataset from 2007 to 2015. I am trying to explore the data and find valuable information from business perspetive and risk perspective. 
 
-2.The second part is to build a pipleline to ingest and process the data in a efficient way. Following along the pipeline, I first ingest the dataset with a total size of 254.6G from the data source provided to AWS S3; clean and validate the dataset in Python3, and then save the dataset in Postgres.
+2.The second part is to build a pipleline to ingest and process the data in a efficient way. Following along the pipeline, I first ingest the dataset with a total size of 1.1G from the data source provided to AWS S3; clean and validate the dataset in Python3, and then save the dataset in Postgres.
 
 ![pipeline](pipeline.png)
 The structure of the directory is mapped according to this tree:
