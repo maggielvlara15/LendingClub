@@ -29,6 +29,7 @@ backtesting
     |- db
         |- schema.sql
     |- src
+        |- run.sh
         |- write_clean_df.py
         |- data_cleaning.py
         |- config.ini
