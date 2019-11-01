@@ -4,9 +4,9 @@
 
 1. [Overview](#overview)
 2. [Dataset](#dataset)
-3. [Data Exploration](#dataexploration)
-4. [Data Processing](#dataprocessing)
-5. [Storage and Database](#storageanddatabase)
+3. [Data_Exploration](#data_exploration)
+4. [Data_Processing](#data_processing)
+5. [Storage&Database](#storage&database)
 6. [Visualization](#visualization)
 7. [FutureWork](#FutureWork)
 
@@ -99,7 +99,7 @@ The following figures show the distribution of loan condition and loan purpose a
 
 # FutureWork
 1. Create a batabase and write the data to the database
-2. There are definitely more analysis we can do
+2. There are definitely more analysis I can do
 3. Add more data validations during the data processing
 4. Add unit tests during the data processing
 5. Add a airflow to automate the whole process
