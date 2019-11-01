@@ -38,10 +38,43 @@ backtesting
 
 |Number of files|Size of csv file|
 |---|---|
-|1 csv|1.1GB|
-|1 xlsx|23KB|
+|1 csv|1.1 GB|
+|1 xlsx|23 KB|
 
 There are two files,one is the loan data file which is csv format, another one is associated dictionary from which is a xlsx format.
 The csv file have columns and rows.
+
+# Data Exploration
+In this section, I analyzed the lending club dataset from 2007 to 2015. I explored the data and found some valuable information from business perspetive and risk perspective.
+## Outlier
+### Distributions and Basic Information
+ Summary: 
+ 1. Most of loans were issused with a interest rate beteen %7 to 16%
+ 2. Most of loans were issued with the number between 10000 to 20000 USD dollars
+ 3. Both of issued loan numbers and loan amount were having exponentially increasing along the year
+ 4. From 2007-2015, bad loans consist 17.5% of total loans,this percentage is subjected to possible changes.
+ 5. The reason that clients applied the most for a loan was to consolidate debt and credit cards.
+ 6. Clients applied less for educational purposes for all three income categories.
+ 7. Wedding and Cars have the highest ratio of good loans
+
+### Business Pespective
+#### Analysis by State
+Summary:
+ 1. DC,NJ,CT,MD,VA are the states having the highest average annual income. DC meanwhile has a relatively low loan amount and interest rate, the reason might be the high annual income. 
+ 2. CA,TX,NY,FL,IL are the states having the highest loan amount applied. The annual income are all above average and that may be the reason why most loans were issued there.
+ 
+#### Analysis by Income and Employment Length Categories
+Summary:
+ 3. Hign income people's top loan purpose is small business;
+    Medium income people's top loan purpose is home improvement;
+    Low income people's top loan purpose is education.
+ 4. Junior level people have a high weight loan on education, it might because junior people were still paying for the student loan.
+    Senior level people have a high weight loan on vacation and renewable_energy except people with 10+ employment length has the highest weight loan on home improvent.
+    
+### Risk Perspective
+  Summary
+  1. Low income group tends to have higher bad_loan/good_loan ratio
+  2. People having small business loan purpose tend to have a higher risk of being a bad loan
+  3. The interest rate for house is hign, and the bad_loan/good_loan ratio is not high, so it seems a good business to provide loan for house
 
 
