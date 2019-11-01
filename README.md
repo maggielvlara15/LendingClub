@@ -46,12 +46,12 @@ In this section, I analyzed the lending club dataset from 2007 to 2015. I explor
 ## Outlier
 ### Distributions and Basic Information
  Summary: 
- 1. Most of loans were issused with a interest rate beteen %7 to 16%
- 2. Most of loans were issued with the number between 10000 to 20000 USD dollars
- 3. Both of issued loan numbers and loan amount were having exponentially increasing along the year
- 4. From 2007-2015, bad loans consist 17.5% of total loans,this percentage is subjected to possible changes.
- 5. The reason that clients applied the most for a loan was to consolidate debt and credit cards.
- 6. Clients applied less for educational purposes for all three income categories.
+ 1. Most of loans were issued with a interest rate beteen 7% to 16%
+ 2. Most of loans were issued with the number between 10,000 to 20,000 USD dollars
+ 3. Both of issued loan numbers and loan amount were exponentially increasing along the year
+ 4. From 2007-2015, bad loans consist 17.5% of total loans,this percentage is subjected to possible changes
+ 5. The reason that clients applied the most for a loan was to consolidate debt and credit cards
+ 6. Clients applied less for educational purposes for all three income categories
  7. Wedding and Cars have the highest ratio of good loans
 
 ### Business Pespective
@@ -85,11 +85,11 @@ This section includes data cleaning and data validation:
 8. Flag outliers
 9. Flag invalid categories
 
-# Storage
-I stored the result in AWS S3 for now, in the future work, I would like the choose PostgreSQL as the database because it is a extensible and convenient RDAMS and it also provides legendary reliability and stability.
+# Database
+I stored the result in AWS S3 for now, in the future work, I would like to choose PostgreSQL as the database because it is a extensible and convenient RDAMS and it also provides reliability and stability.
 
 # Visualization
-All the data visualization are saved at data_analysis,ipynb. Here are a few example:
+All the data visualization are saved at data_analysis.ipynb. Here are a few examples:
 
 This figure shows the percentage of employment length along the loan purpose
 ![visualization1](Visualization/visualization1.jpg)
@@ -98,7 +98,7 @@ The following figures show the distribution of loan condition and loan purpose a
 ![visualization2](Visualization/visualization2.jpg)
 
 # FutureWork
-1. Create a batabase and write the data to the database
+1. Create a database and write the data to the database
 2. There are definitely more analysis I can do
 3. Add more data validations during the data processing
 4. Add unit tests during the data processing
