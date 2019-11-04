@@ -20,7 +20,7 @@ LendingClub is the world's largest peer-to-peer lending platform, where investor
 ![data_pipeline](data_pipeline.png)
 The structure of the directory is mapped according to this tree:
 ```
-backtesting
+Lendingclub
     |- data_pipeline.png
     |- README.md
     |- loan_analysis.ipynb
